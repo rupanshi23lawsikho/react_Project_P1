@@ -124,7 +124,7 @@ const ItemDetails = () => {
        
       </div>
       <div className="image-container">
-        <img src="AddItem.png" alt="Office" />
+        <img src="https://images.unsplash.com/photo-1567449303117-2695b47d1738?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhcmdlJTIwb2ZmaWNlfGVufDB8fDB8fHww" alt="Office" />
       </div>
     </div>
   );
