@@ -1,0 +1,30 @@
+.homepage-wrapper {
+    padding: 16px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #0056b3;
+    margin-top: 20px;
+  }
+  
+  .nav-link {
+    color: #333; 
+    width: inherit;
+    padding: 5px 10px;
+    border: 1px solid #d1d5d6;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  .nav-link.active {
+    color: #fff;
+    background-color: #007bff; 
+  }
+  
