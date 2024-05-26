@@ -1,0 +1,50 @@
+.resource-item-wrapper {
+    border: 3px solid #e0e0e0;
+    border-radius: 1px;
+    padding: 16px;
+    margin: 8px;
+    width: calc(33% - 16px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .resource-item-wrapper:hover {
+    border-color: rgb(150, 45, 241); 
+  }
+
+  .resource-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .resource-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 4px;
+  }
+  
+  .resource-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .resource-category {
+    margin: 0;
+    color: #888;
+  }
+  
+  .resource-link {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .resource-description {
+    margin: 0;
+    color: #555;
+  }
+  
